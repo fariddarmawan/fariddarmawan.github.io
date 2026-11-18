@@ -1,1 +1,157 @@
 
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background: #f4f4f4;
+}
+
+header {
+    background: #101820;
+    color: white;
+    padding: 20px 8%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header span {
+    color: #00d084;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin-left: 20px;
+}
+
+nav a:hover {
+    color: #00d084;
+}
+
+.hero {
+    background: linear-gradient(120deg, #101820, #176b50);
+    color: white;
+    text-align: center;
+    padding: 120px 20px;
+}
+
+.hero h1 {
+    font-size: 40px;
+    margin-bottom: 15px;
+}
+
+.hero p {
+    margin-bottom: 30px;
+}
+
+.btn {
+    background: #00d084;
+    color: #101820;
+    padding: 13px 25px;
+    text-decoration: none;
+    border-radius: 8px;
+    font-weight: bold;
+}
+
+.produk {
+    padding: 60px 8%;
+    text-align: center;
+}
+
+.produk h2 {
+    margin-bottom: 35px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    flex-wrap: wrap;
+}
+
+.card {
+    background: white;
+    width: 280px;
+    padding: 15px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px #0002;
+}
+
+.card img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+.card h3 {
+    margin: 15px 0;
+}
+
+.card p {
+    color: #008b58;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.card a, .kontak a {
+    display: inline-block;
+    background: #101820;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 6px;
+}
+
+.tentang {
+    background: white;
+    padding: 60px 10%;
+    text-align: center;
+}
+
+.tentang p {
+    margin-top: 15px;
+}
+
+.kontak {
+    background: #176b50;
+    color: white;
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.kontak p {
+    margin: 15px 0 25px;
+}
+
+.kontak a {
+    background: #00d084;
+    color: #101820;
+}
+
+footer {
+    background: #101820;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+@media(max-width: 600px) {
+    header {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    nav a {
+        margin: 0 6px;
+        font-size: 13px;
+    }
+
+    .hero h1 {
+        font-size: 28px;
+    }
+}
